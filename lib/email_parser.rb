@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def parse
-@emails.flatten.uniq
+@emails.flatten
 end
 
 
